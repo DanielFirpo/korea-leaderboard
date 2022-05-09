@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-image: linear-gradient(#000 20%, #434343);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+#RankingListHeader {
+  display: flex;
+  width: 90vw;
+  padding-left: 10vw;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: #000 solid;
+  margin-bottom: 10px;
+}
+
+#RankingListHeader div {
+  width: 14vw;
+}
+
+#RankingList {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.RankingListItem {
+  display: flex;
+  width: 90vw;
+  /* justify-content: space-evenly; */
+  align-content: flex-start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headerContainer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  margin-bottom: 8vh;
+}
+
+#StreamerTable {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  width: 90vw;
+  padding-bottom: 20px;
+}
+
+.RankingListItemText {
+  /* display: flex; */
+  /* justify-content: left; */
+  width: 14vw;
+}
