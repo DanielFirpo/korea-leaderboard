@@ -39,7 +39,7 @@ function RankingList() {
 
     function getStreamerData() {
         fetch(process.env.REACT_APP_BACKEND_URL + `/streamerData`)
-            .then(response => {console.log(response); response.json()})
+            .then(response => response.json())
             .then(data => {
                 console.log("sucessfully got streamer data", data)
                 let newStreamerDataArray = [];
