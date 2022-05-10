@@ -38,7 +38,7 @@ function RankingList() {
     }, []);
 
     function getStreamerData() {
-        fetch("https://api.codetabs.com/v1/proxy?quest=" + process.env.REACT_APP_BACKEND_URL + `/streamerData`)
+        fetch(process.env.REACT_APP_BACKEND_URL + `/streamerData`)
             .then(response => {console.log(response); response.json()})
             .then(data => {
                 console.log("sucessfully got streamer data", data)
